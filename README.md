@@ -53,13 +53,13 @@ Colocar imagem do DER (pronto)
 | id_endereco_pet | INT | Referência ao local onde o pet foi encontrado | [cite_start]FK [cite: 9] |
 | id_vacina_pet | INT | Referência ao histórico de vacinação | [cite_start]FK [cite: 9] |
 
-#### [cite_start]Tabela: TIPO_ESPECIE [cite: 10]
+#### Tabela: TIPO_ESPECIE [cite: 10]
 | Campo | Tipo | Descrição | Chave |
 | :--- | :--- | :--- | :---: |
 | id_tipo_especie | INT | Identificador único da espécie | [cite_start]PK [cite: 11] |
 | nome_especie | ENUM | Classificação da espécie do animal | [cite_start]- [cite: 11] |
 
-#### [cite_start]Tabela: ENDERECO_PET_ENCONTRADO [cite: 12]
+#### Tabela: ENDERECO_PET_ENCONTRADO [cite: 12]
 | Campo | Tipo | Descrição | Chave |
 | :--- | :--- | :--- | :---: |
 | id_endereco_pet | INT | Identificador único do local de resgate | [cite_start]PK [cite: 13] |
@@ -72,7 +72,7 @@ Colocar imagem do DER (pronto)
 
 ### Vacinação e Processos
 
-#### [cite_start]Tabela: ADOCAO [cite: 14]
+#### Tabela: ADOCAO [cite: 14]
 | Campo | Tipo | Descrição | Chave |
 | :--- | :--- | :--- | :---: |
 | id_adocao | INT | Identificador único do processo de adoção | [cite_start]PK [cite: 15] |
@@ -80,13 +80,13 @@ Colocar imagem do DER (pronto)
 | id_pet | INT | Referência ao pet adotado | [cite_start]FK [cite: 15] |
 | id_pessoa | INT | Referência ao adotador responsável | [cite_start]FK [cite: 15] |
 
-#### [cite_start]Tabela: VACINA_PET [cite: 16]
+### Tabela: VACINA_PET [cite: 16]
 | Campo | Tipo | Descrição | Chave |
 | :--- | :--- | :--- | :---: |
 | id_vacina_pet | INT | Identificador único da aplicação da vacina | [cite_start]PK [cite: 17] |
 | id_catalago_vacina | INT | Referência ao tipo de vacina no catálogo | [cite_start]FK [cite: 17] |
 
-#### [cite_start]Tabela: CATALAGO_VACINA [cite: 18]
+#### Tabela: CATALAGO_VACINA [cite: 18]
 | Campo | Tipo | Descrição | Chave |
 | :--- | :--- | :--- | :---: |
 | id_catalago_vacina | INT | Identificador único da vacina no sistema | [cite_start]PK [cite: 19] |
